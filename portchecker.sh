@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Don't you hate it when your developing something locally and an application has taken your favorite localhost port?
 #First checks out what is listening on the port gives as the first parameter, then checks what process that actually is.
 
 function portcheck() {
